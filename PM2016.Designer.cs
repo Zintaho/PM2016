@@ -58,19 +58,21 @@
             // 
             this.toolProcess.Name = "toolProcess";
             this.toolProcess.Size = new System.Drawing.Size(99, 17);
-            this.toolProcess.Text = "프로세스 : 000개";
+            this.toolProcess.Text = Properties.Resources.textProcess + " ___ " + Properties.Resources.textGae;
+
             // 
             // toolCPU
             // 
             this.toolCPU.Name = "toolCPU";
             this.toolCPU.Size = new System.Drawing.Size(112, 17);
-            this.toolCPU.Text = "CPU 사용률 : 000%";
+            this.toolCPU.Text = Properties.Resources.textCpuUsage + " : ___%";
             // 
             // toolMem
             // 
             this.toolMem.Name = "toolMem";
             this.toolMem.Size = new System.Drawing.Size(125, 17);
-            this.toolMem.Text = "메모리 사용률 : 000%";
+            this.toolMem.Text = Properties.Resources.textMemUsage + " : ___%";
+
             // 
             // btnKill
             // 
@@ -78,9 +80,9 @@
             this.btnKill.Name = "btnKill";
             this.btnKill.Size = new System.Drawing.Size(80, 23);
             this.btnKill.TabIndex = 2;
-            this.btnKill.Text = "작업 끝내기";
+            this.btnKill.Text = Properties.Resources.textKillProcess;
             this.btnKill.UseVisualStyleBackColor = true;
-            this.btnKill.Click += new System.EventHandler(this.btnKill_Click);
+            this.btnKill.Click += new System.EventHandler(this.BtnKill_Click);
             // 
             // toolStripMenuItem1
             // 
@@ -107,22 +109,22 @@
             this.listView.TabIndex = 4;
             this.listView.UseCompatibleStateImageBehavior = false;
             this.listView.View = System.Windows.Forms.View.Details;
-            this.listView.MouseClick += new System.Windows.Forms.MouseEventHandler(this.listView_MouseClick);
+            this.listView.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ListView_MouseClick);
             // 
             // chName
             // 
-            this.chName.Text = "이름";
+            this.chName.Text = Properties.Resources.textListName;
             this.chName.Width = 284;
             // 
             // chPid
             // 
-            this.chPid.Text = "PID";
+            this.chPid.Text = Properties.Resources.textListPID;
             this.chPid.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.chPid.Width = 50;
             // 
             // chMem
             // 
-            this.chMem.Text = "메모리";
+            this.chMem.Text = Properties.Resources.textListMem;
             this.chMem.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.chMem.Width = 230;
             // 

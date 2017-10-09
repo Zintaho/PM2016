@@ -19,7 +19,7 @@ namespace PM2016.Properties {
     // 클래스에서 자동으로 생성되었습니다.
     // 멤버를 추가하거나 제거하려면 .ResX 파일을 편집한 다음 /str 옵션을 사용하여 ResGen을
     // 다시 실행하거나 VS 프로젝트를 다시 빌드하십시오.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -57,6 +57,231 @@ namespace PM2016.Properties {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   프로세서 선호도과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string textAffinity {
+            get {
+                return ResourceManager.GetString("textAffinity", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   해당 프로세스를 실행할 수 있는 프로세서과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string textAffinityWindowMain {
+            get {
+                return ResourceManager.GetString("textAffinityWindowMain", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   취소과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string textCancel {
+            get {
+                return ResourceManager.GetString("textCancel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   CPU과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string textCPU {
+            get {
+                return ResourceManager.GetString("textCPU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   CPU 사용률과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string textCpuUsage {
+            get {
+                return ResourceManager.GetString("textCpuUsage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   개과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string textGae {
+            get {
+                return ResourceManager.GetString("textGae", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   작업 끝내기과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string textKillProcess {
+            get {
+                return ResourceManager.GetString("textKillProcess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   메모리과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string textListMem {
+            get {
+                return ResourceManager.GetString("textListMem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   이름과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string textListName {
+            get {
+                return ResourceManager.GetString("textListName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   PID과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string textListPID {
+            get {
+                return ResourceManager.GetString("textListPID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   메모리 사용률과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string textMemUsage {
+            get {
+                return ResourceManager.GetString("textMemUsage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    프로세스가 존재하지 않습니다.과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string textNotExist {
+            get {
+                return ResourceManager.GetString("textNotExist", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   확인과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string textOK {
+            get {
+                return ResourceManager.GetString("textOK", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   AboveNormal과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string textPriorityAbovenormal {
+            get {
+                return ResourceManager.GetString("textPriorityAbovenormal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   BelowNormal과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string textPriorityBelownormal {
+            get {
+                return ResourceManager.GetString("textPriorityBelownormal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   High과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string textPriorityHigh {
+            get {
+                return ResourceManager.GetString("textPriorityHigh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Idle과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string textPriorityIdle {
+            get {
+                return ResourceManager.GetString("textPriorityIdle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Normal과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string textPriorityNormal {
+            get {
+                return ResourceManager.GetString("textPriorityNormal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   RealTime과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string textPriorityRealtime {
+            get {
+                return ResourceManager.GetString("textPriorityRealtime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   프로세스과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string textProcess {
+            get {
+                return ResourceManager.GetString("textProcess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    프로세스를 종료합니까?과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string textProcessKill {
+            get {
+                return ResourceManager.GetString("textProcessKill", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   선호도 설정과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string textSetAffinity {
+            get {
+                return ResourceManager.GetString("textSetAffinity", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   우선순위 설정과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string textSetPriority {
+            get {
+                return ResourceManager.GetString("textSetPriority", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   알림과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string textWarning {
+            get {
+                return ResourceManager.GetString("textWarning", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   모든 프로세서과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string textWholeProcessor {
+            get {
+                return ResourceManager.GetString("textWholeProcessor", resourceCulture);
             }
         }
     }
